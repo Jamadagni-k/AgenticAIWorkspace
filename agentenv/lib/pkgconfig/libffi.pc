@@ -1,0 +1,11 @@
+prefix=/Users/jamadagnikotamsetty/MyCode/AgenticAIWorkspace/agentenv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/jamadagnikotamsetty/MyCode/AgenticAIWorkspace/agentenv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

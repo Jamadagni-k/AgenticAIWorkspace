@@ -1,0 +1,13 @@
+prefix=/Users/jamadagnikotamsetty/MyCode/AgenticAIWorkspace/1-Langchain/.conda
+exec_prefix=/Users/jamadagnikotamsetty/MyCode/AgenticAIWorkspace/1-Langchain/.conda
+libdir=/Users/jamadagnikotamsetty/MyCode/AgenticAIWorkspace/1-Langchain/.conda/lib
+sharedlibdir=/Users/jamadagnikotamsetty/MyCode/AgenticAIWorkspace/1-Langchain/.conda/lib
+includedir=/Users/jamadagnikotamsetty/MyCode/AgenticAIWorkspace/1-Langchain/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
