@@ -7,4 +7,8 @@ bs4
 faiss-cpu
 PyPDF
 rapidocr-onnxruntime
-
+chromadb
+langchain-groq
+langchain_huggingface
+arxiv
+wikipedia
