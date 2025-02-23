@@ -12,3 +12,6 @@ langchain-groq
 langchain_huggingface
 arxiv
 wikipedia
+langgraph
+pymupdf
+langchain_chroma
